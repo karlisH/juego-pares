@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="#6C7B8B" >
+
+        <TextView
+            android:id="@+id/player1"
+            android:layout_width="92dp"
+            android:layout_height="43dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="8dp"
+            android:text="Player1" />
+
+        <TextView
+            android:id="@+id/player1score"
+            android:layout_width="61dp"
+            android:layout_height="fill_parent"
+            android:gravity="center|center_vertical"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/player2score"
+            android:layout_width="74dp"
+            android:layout_height="fill_parent"
+            android:gravity="center|center_vertical"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/player2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="right|center_vertical"
+            android:paddingRight="8dp"
+            android:text="Player2" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="355dp"
+        android:layout_weight="0.62"
+        android:background="@drawable/fondo1"
+        android:columnWidth="70dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:paddingTop="20dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.81"
+        android:background="#6C7B8B" >
+
+    </FrameLayout>
+
+</LinearLayout>

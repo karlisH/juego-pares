@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    android:key = "preferences_main"
+	<CheckBoxPreference
+	    android:key = "musica"
+	    android:title = "Sonidos Juego"
+	    android:summary= "Los sonidos se reproducen cuando algunas acciones suceden"
+	    android:defaultValue = "false" />  
+	<EditTextPreference
+	    android:key= "player1name"
+    	android:title = "Nombre del Jugador 1"
+    	android:summary = "Elegir un nombre para el jugador 1"
+    	android:defaultValue = "Jugador 1"/>
+	<EditTextPreference
+	    android:key= "player2name"
+    	android:title = "Nombre del Jugador 2"
+    	android:summary = "Elegir un nombre para el jugador 2"
+    	android:defaultValue = "Jugador 2"/>
+</PreferenceScreen>

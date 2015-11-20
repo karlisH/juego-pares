@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World</string>
+    <string name="app_name">Juego de Pares</string>
+   <string name="action_settings">Configuraciones</string>
+    <string name="play">Iniciar Juego</string>
+    <string name="next_turn">Proximo Jugador</string>
+    <string name="new_score">Bien!! Intentalo de Nuevo</string>
+    <string name="win">Muy Bien,Felicidades.</string>
+    <string name="app_title">Juego Pares</string>
+    <string name="config">PREFERENCIAS</string>
+    <string name="about">ACERCA DE</string>
+    <string name="score">Puntuaciones</string>
+    <string name="about_string">Juego Realizado por  (Lauro Japa,Marjorie Chinchay,Karla Herrera,Gabriela Rodriguez)</string>
+</resources>
